@@ -14,7 +14,7 @@
 	<version>1.0</version>
 	<packaging>jar</packaging>
 
-	<name>smart-date-string</name>
+	<name>smart-date-generator</name>
 	<url>https://github.com/kcwebapply/smart-date-generator</url>
 	<description>Demo project for Spring Boot</description>
 
