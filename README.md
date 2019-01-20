@@ -46,7 +46,7 @@ SmartDateGenerator.generateDate("2017/05/04 11:22", "yyyy/MM/dd").toCalender()
 
 ```
 
-### date-caliculation
+### Date-caliculation
 you can caliculate date with method-chain
 ```java
 // 90 days after .
@@ -67,7 +67,7 @@ SmartDateGenerator.generateDate(new Date()).dayChange(-90).toCalender() // -> Ca
 
 ```
 
-## set timezone
+### Set timezone
 ```java
 SmartDateGenerator.generateDate(testDate()).dayChange(-30).setTimeZone(TimeZone.getTimeZone("US/Alaska")).toString("yyyy/MM/dd")
 // -> 2018/12/21
